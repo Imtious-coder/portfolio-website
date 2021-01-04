@@ -1,5 +1,9 @@
 body{
+    margin: 0;
     font-family: 'Open Sans', sans-serif;
+}
+section{
+    height: 500px;
 }
 
 h1{
@@ -17,8 +21,73 @@ h1{
 .right{
     width: 40%;
     float: right;
+    margin-right: 100px;
 }
 
 .right img{
     width: 100%;
+}
+.top-banner{
+    background-image: url("Pictures/top-banner.png");
+    background-repeat: no-repeat;
+}
+.hire_button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.left_side{
+    width: 40%;
+    float: left;
+    margin-left: 100px;
+}
+.left_side img{
+    width: 100%;
+}
+.right_side{
+    width: 40%;
+    float: right;
+    margin-right: 5%;
+}
+.second_banner{
+    background-image: url("pictures/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experience_left{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.experience_right{
+    width: 40%;
+    float: right;
+    margin-left: 5%;
+    margin-right: 2%;
+    padding-left: 2%;
+}
+.box_shadow{
+    box-shadow: 10px 10px 40px grey;
+    height: 60%;
+    border-radius: 10px;
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, skyblue);
+    border-image-slice: 1;
+}
+.experience{
+    background-image: url("pictures/exp-bg.png");
+    background-repeat: no-repeat;
+}
+#full_stack{
+    border-left: 7px solid;
+    border-image: linear-gradient( lightsalmon, orange);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
